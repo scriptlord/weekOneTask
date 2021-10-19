@@ -65,4 +65,6 @@ function main(){
     http.send()
 }
 
-module.exports = {main}
+main()
+
+// module.exports = {main}
