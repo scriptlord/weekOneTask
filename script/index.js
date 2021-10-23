@@ -13,11 +13,12 @@ function main(){
                 let {name, gender, height}= results[i];
                 console.log(name, gender, height);
                 let imgPath = `../images/character${i}.jpg`;
-                document.getElementById('rows').innerHTML += `<div class="col-lg-3 col-sm-6">
+                document.getElementById('rows').innerHTML += `<main class="col-lg-3 col-sm-6">
                 <img
                   src= ${imgPath}
+                  title = "Click the named button for more info"
                   class="img-responsive img-rounded"
-                  alt=""
+                  alt="${name}, a ${gender} with height: ${height}"
                   srcset=""
                   width="100%"
                   height="100%"
@@ -57,7 +58,7 @@ function main(){
                     </div>
                 </div>
     </div>
-              </div>
+              </main>
         `
              }       
         }

@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
     <link
       rel="stylesheet"
       href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
@@ -11,21 +12,26 @@
     <link rel="stylesheet" href="./style/index.css" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-    <script src="./script/index.js">
-        // Import onload page function
-      //   import { main } from "./script/index";
-      //   main.main();
-    </script>
-
-    <title>Star Wars</title>
+    <script src="./script/index.js"></script>
+    <!-- HTML Meta Tags -->
+<title>Star Wars Characters Info</title>
+<meta name="description" content="The story centres on the battle between the evil Empire and virtuous Rebellion, which appeals for its action as well as the injustice that is being fought">
+<meta name="keywords" content="star wars, action, Luke Skywalker, George Lucas">
+<!-- Facebook Meta Tags -->
+<meta property="og:url" content="https://folusostarwars.netlify.app/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Star Wars Characters Info">
+<meta property="og:description" content="The story centres on the battle between the evil Empire and virtuous Rebellion, which appeals for its action as well as the injustice that is being fought">
+<meta property="og:image" content="https://media1.popsugar-assets.com/files/thumbor/DSZx-0dR-KRzeQDTRSXDm-CKS_A/fit-in/2048xorig/filters:format_auto-!!-:strip_icc-!!-/2017/05/24/624/n/1922283/ec678583d74017ff_Daisy_Ridley_by_Annie_Leibovitz_02-SW-06-17-VF.jpg">  
   </head>
   <body>
-    <div class="container">
-      <nav class="navbar navbar-inverse">
+      <header>
+           <nav class="navbar navbar-inverse">
         <div class="container-fluid">
           <div class="navbar-header">
             <button
               type="button"
+              title="click the drop-down list for menu"
               class="navbar-toggle"
               data-toggle="collapse"
               data-target="#myNavbar"
@@ -56,9 +62,12 @@
           </div>
         </div>
       </nav>
+      </header>
+    
+    <main class="container">
       <h2 class="heading">STAR WARS CAST</h2>
       <div class="row" id="rows"></div>
-    </div>
+    </main>
     <!-- Footer -->
     <footer class="page-footer font-small pt-4">
       <!-- Footer Links -->
